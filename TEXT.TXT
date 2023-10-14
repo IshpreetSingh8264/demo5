@@ -1,0 +1,2120 @@
+      <div>
+        <div id="loader-wrapper">
+          <div id="loading">
+            <div id="loading-center">
+              <div className="cssload-loading"><i /><i /><i /><i /></div>
+            </div>
+          </div>
+        </div>
+        <div id="page" className="page">
+          <header id="header" className="header white-menu navbar-dark">
+            <div className="header-wrapper">
+              <div className="wsmobileheader clearfix">
+                <a id="wsnavtoggle" className="wsanimated-arrow"><span /></a>
+                <span className="smllogo smllogo-black"><img src="images/logo.png" width={172} height={40} alt="mobile-logo" /></span>
+                <span className="smllogo smllogo-white"><img src="images/logo-white.png" width={172} height={40} alt="mobile-logo" /></span>
+              </div>
+              <div className="wsmainfull menu clearfix">
+                <div className="wsmainwp clearfix">
+                  <div className="desktoplogo"><a href="#hero-5" className="logo-black"><img src="images/logo.png" width={172} height={40} alt="header-logo" /></a></div>
+                  <div className="desktoplogo"><a href="#hero-5" className="logo-white"><img src="images/logo-white.png" width={172} height={40} alt="header-logo" /></a></div>
+                  <nav className="wsmenu clearfix">
+                    <ul className="wsmenu-list">
+                      <li className="nl-simple" aria-haspopup="true"><a href="#">About</a></li>
+                      <li aria-haspopup="true"><a href="#">Pages <span className="wsarrow" /></a>
+                        <div className="wsmegamenu clearfix halfmenu">
+                          <div className="container-fluid">
+                            <div className="row">
+                              <ul className="col-lg-6 col-md-12 col-xs-12 link-list left-link-list">
+                                <li><a href="about.html">About Us Page</a></li>
+                                <li><a href="categories-list.html">Categories Listing</a></li>
+                                <li><a href="category-details.html">Category Details</a></li>
+                                <li><a href="courses-list.html">Courses Listing</a></li>
+                                <li><a href="course-details.html">Course Details</a></li>
+                                <li><a href="teachers-list.html">Teachers Listing</a></li>
+                                <li><a href="teacher-profile.html">Teacher Profile</a></li>
+                              </ul>
+                              <ul className="col-lg-6 col-md-12 col-xs-12 link-list">
+                                <li><a href="become-a-teacher.html">Become A Teacher</a></li>
+                                <li><a href="pricing.html">Pricing Plans Page</a></li>
+                                <li><a href="reviews.html">Reviews Page</a></li>
+                                <li><a href="faqs.html">FAQs Page</a></li>
+                                <li><a href="blog-listing.html">Blog Listing</a></li>
+                                <li><a href="single-post.html">Single Post</a></li>
+                                <li><a href="contacts.html">Contacts Page</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li> 
+                      <li aria-haspopup="true"><a href="#">Categories <span className="wsarrow" /></a>
+                        <ul className="sub-menu">
+                          <li aria-haspopup="true"><a href="courses-list.html">Development</a></li>
+                          <li aria-haspopup="true"><a href="courses-list.html">Finance &amp; Accounting</a>
+                          </li>
+                          <li aria-haspopup="true"><a href="courses-list.html">IT &amp; Software</a></li>
+                          <li aria-haspopup="true"><a href="courses-list.html">Office Productivity</a>
+                          </li>
+                          <li aria-haspopup="true"><a href="courses-list.html">Photography</a></li>
+                          <li aria-haspopup="true"><a href="courses-list.html">Math &amp; Science</a></li>
+                          <li aria-haspopup="true"><a href="courses-list.html">Languages</a></li>
+                          <li aria-haspopup="true"><a href="courses-list.html">Marketing</a></li>
+                          <li aria-haspopup="true"><a href="courses-list.html">Health &amp; Fitness</a></li>
+                        </ul>
+                      </li> 
+                      <li aria-haspopup="true"><a href="#">Mega Menu <span className="wsarrow" /></a>
+                        <div className="wsmegamenu clearfix">
+                          <div className="container">
+                            <div className="row">
+                              <div className="col-md-12 col-lg-3">
+                                <h3 className="title">Top 5 Online Courses:</h3>
+                                <ul className="link-list clearfix">
+                                  <li><a href="course-details.html">English for Tourism</a></li>
+                                  <li><a href="course-details.html">Python Programming - Working
+                                      with Lists and Files</a></li>
+                                  <li><a href="course-details.html">Computer Networking - Wired
+                                      and Wireless Networks</a></li>
+                                  <li><a href="course-details.html">Digital Marketing: The
+                                      Ultimate Guide to Strategic</a></li>
+                                  <li><a href="course-details.html">The Complete iOS 10 &amp; Swift 3
+                                      Developer Course</a></li>
+                                </ul>
+                              </div>
+                              <div className="col-md-12 col-lg-5">
+                                <h3 className="title">Featured News:</h3>
+                                <div className="fluid-width-video-wrapper mb-15"><img src="images/blog/featured-news.jpg" alt="featured-news" />
+                                </div>
+                                <h5 className="h5-md">
+                                  <a href="single-post.html">Study smart and save time with these
+                                    5 tips
+                                  </a>
+                                </h5>
+                                <p className="wsmwnutxt">Porta semper lacus cursus, feugiat primis
+                                  ultrice in ligula risus auctor
+                                  tempus feugiat dolor impedit magna...
+                                </p>
+                              </div>
+                              <div className="col-md-12 col-lg-4">
+                                <h3 className="title">Latest News:</h3>
+                                <ul className="latest-news">
+                                  <li className="clearfix d-flex align-items-center">
+                                    <img className="img-fluid" src="images/blog/latest-post-1.jpg" alt="blog-post-preview" />
+                                    <div className="post-summary">
+                                      <a href="single-post.html">Etiam sapien risus ante
+                                        auctor tempus an accumsan...</a>
+                                      <p>18 hours ago</p>
+                                    </div>
+                                  </li>
+                                  <li className="clearfix d-flex align-items-center">
+                                    <img className="img-fluid" src="images/blog/latest-post-2.jpg" alt="blog-post-preview" />
+                                    <div className="post-summary">
+                                      <a href="single-post.html">Blandit tempor sapien ipsum,
+                                        porta risus auctor justo...
+                                      </a>
+                                      <p>Feb 17, 2020</p>
+                                    </div>
+                                  </li>
+                                  <li className="clearfix d-flex align-items-center">
+                                    <img className="img-fluid" src="images/blog/latest-post-3.jpg" alt="blog-post-preview" />
+                                    <div className="post-summary">
+                                      <a href="single-post.html">Cursus risus an auctor risus
+                                        laoreet undo auctor varius...</a>
+                                      <p>Feb 07, 2020</p>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div> 
+                            </div> 
+                          </div>
+                        </div>
+                      </li> 
+                      <li className="nl-simple" aria-haspopup="true"><a href="blog-listing.html">Blog</a></li>
+                      <li className="nl-simple" aria-haspopup="true"><a href="contacts.html">Contacts</a></li>
+                      <li aria-haspopup="true">
+                        <a href="#" className="lang-select">
+                          <img src="images/icons/flags/uk.png" alt="flag-icon" /> En <span className="wsarrow" />
+                        </a>
+                        <ul className="sub-menu last-sub-menu">
+                          <li aria-haspopup="true"><a href="#"><img src="images/icons/flags/germany.png" alt="flag-icon" /> Deutch</a></li>
+                          <li aria-haspopup="true"><a href="#"><img src="images/icons/flags/spain.png" alt="flag-icon" /> Español</a></li>
+                          <li aria-haspopup="true"><a href="#"><img src="images/icons/flags/france.png" alt="flag-icon" /> Français</a></li>
+                          <li aria-haspopup="true"><a href="#"><img src="images/icons/flags/italy.png" alt="flag-icon" /> Italiano</a></li>
+                          <li aria-haspopup="true"><a href="#"><img src="images/icons/flags/russia.png" alt="flag-icon" /> Русский</a></li>
+                          <li aria-haspopup="true"><a href="#"><img src="images/icons/flags/china.png" alt="flag-icon" /> 简体中文</a></li>
+                        </ul>
+                      </li> 
+                      <li className="nl-simple" aria-haspopup="true">
+                        <a href="#" className="btn btn-rose tra-black-hover last-link">Get Started</a>
+                      </li> 
+                    </ul>
+                  </nav>
+                </div>
+              </div> 
+            </div> 
+          </header> 
+          <section id="hero-5" className="hero-section division">
+            <div className="slider blue-nav">
+              <ul className="slides">
+                <li id="slide-1">
+                  <img src="images/slider/slide-4.jpg" alt="slide-background" />
+                  <div className="caption d-flex align-items-center center-align">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-md-12">
+                          <div className="caption-txt white-color">
+                            <h2>25K+ Students trust our online courses</h2>
+                            <p>Feugiat primis ligula risus auctor egestas augue mauri viverra tortor in
+                              iaculis
+                              placerat eugiat mauris ipsum in viverra gravida purus
+                            </p>
+                            <a href="categories-list.html" className="btn btn-md btn-rose tra-white-hover">Discover More</a>
+                          </div>
+                        </div>
+                      </div> 
+                    </div> 
+                  </div>
+                </li> 
+                <li id="slide-2">
+                  <img src="images/slider/slide-5.jpg" alt="slide-background" />
+                  <div className="caption d-flex align-items-center center-align">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-md-12">
+                          <div className="caption-txt white-color">
+                            <h2>Learn our courses and earn new skills</h2>
+                            <p>Feugiat primis ligula risus auctor egestas augue mauri viverra tortor in
+                              iaculis
+                              placerat eugiat mauris ipsum in viverra gravida purus
+                            </p>
+                            <a href="pricing.html" className="btn btn-md btn-rose tra-white-hover">Discover
+                              More</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="slide-3">
+                  <img src="images/slider/slide-6.jpg" alt="slide-background" />
+                  <div className="caption d-flex align-items-center center-align">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-md-12">
+                          <div className="caption-txt white-color">
+                            <h2>2,769 online courses from the best tutors</h2>
+                            <p>Feugiat primis ligula risus auctor egestas augue mauri viverra tortor in
+                              iaculis
+                              placerat eugiat mauris ipsum in viverra gravida purus
+                            </p>
+                            <a href="courses-list.html" className="btn btn-md btn-rose tra-white-hover">View
+                              All Courses</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div> 
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section id="about-3" className="pt-100 about-section division">
+            <div className="container">
+              <div className="row d-flex align-items-center">
+                <div className="col-md-7 col-lg-6">
+                  <div className="txt-block pc-25">
+                    <h3 className="h3-sm">Learn new personal &amp; professional skills online</h3>
+                    <p>An enim nullam tempor sapien gravida donec porta and blandit ipsum enim justo integer
+                      velna vitae
+                      auctor integer congue magna and purus pretium risus ligula rutrum luctus ultrice
+                    </p>
+                    <ul className="txt-list mb-15">
+                      <li>Nullam rutrum eget nunc varius etiam mollis risus undo</li>
+                      <li>Integer congue magna at pretium purus pretium ligula at rutrum risus luctus dolor
+                        auctor
+                        ipsum blandit purus
+                      </li>
+                      <li>Risus at congue etiam aliquam sapien egestas posuere</li>
+                    </ul>
+                    <a href="categories-list.html" className="btn btn-md btn-rose tra-black-hover">Start Learning
+                      Now</a>
+                  </div>
+                </div>
+                <div className="col-md-5 col-lg-6">
+                  <div className="img-block">
+                    <img className="img-fluid" src="images/image-02.png" alt="about-image" />
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </section>
+          <section id="services-2" className="bg-lightgrey wide-60 services-section division">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6 col-lg-3">
+                  <div className="sbox-2">
+                    <img className="img-75" src="images/icons/trophy.png" alt="service-icon" />
+                    <div className="sbox-2-txt">
+                      <h5 className="h5-md">Trusted Content</h5>
+                      <p className="grey-color">Augue luctus neque purus ipsum neque dolor primis libero tempus a
+                        blandit</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-3">
+                  <div className="sbox-2">
+                    <img className="img-75" src="images/icons/classroom.png" alt="service-icon" />
+                    <div className="sbox-2-txt">
+                      <h5 className="h5-md">Certified Teachers</h5>
+                      <p className="grey-color">Augue luctus neque purus ipsum neque dolor primis libero tempus a
+                        blandit</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-3">
+                  <div className="sbox-2">
+                    <img className="img-75" src="images/icons/mouse-1.png" alt="service-icon" />
+                    <div className="sbox-2-txt">
+                      <h5 className="h5-md">Lifetime Access</h5>
+                      <p className="grey-color">Augue luctus neque purus ipsum neque dolor primis libero tempus a
+                        blandit</p>
+                    </div>
+                  </div>
+                </div> 
+                <div className="col-md-6 col-lg-3">
+                  <div className="sbox-2">
+                    <img className="img-75" src="images/icons/certificate.png" alt="service-icon" />
+                    <div className="sbox-2-txt">
+                      <h5 className="h5-md">Sertification</h5>
+                      <p className="grey-color">Augue luctus neque purus ipsum neque dolor primis libero tempus a
+                        blandit</p>
+                    </div>
+                  </div>
+                </div> 
+              </div> 
+            </div> 
+          </section> 
+          <section id="categories-4" className="wide-60 categories-section division">
+            <div className="container">
+              {/* SECTION TITLE */}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-title title-centered mb-80">
+                    {/* Title 	*/}
+                    <h3 className="h3-sm">Our Online Course Categories</h3>
+                    {/* Text */}
+                    <p className="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
+                      tempus, blandit posuere and ligula varius magna a porta
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                {/* CATEGORIE BOX #1 */}
+                <div className="col-md-6 col-lg-4">
+                  <div className="c4-box">
+                    {/* Icon */}
+                    <div className="c4-box-ico mb-15 clearfix">
+                      <div className="c4-ico bg-blue">
+                        <img src="images/icons/categories/development.png" alt="category-icon" />
+                      </div>
+                      <h5 className="h5-md">Computer Science</h5>
+                      <p>341 Courses</p>
+                    </div>
+                    {/* List */}
+                    <div className="c4-box-txt">
+                      <ul className="c4-box-list">
+                        <li><a href="courses-list.html">Artificial Intelligence,</a></li>
+                        <li><a href="courses-list.html">Internet of Things,</a></li>
+                        <li><a href="courses-list.html">Algorithms &amp; Data Structures,</a></li>
+                        <li><a href="courses-list.html">Information,</a></li>
+                        <li><a href="courses-list.html">Technology,</a></li>
+                        <li><a href="courses-list.html">Blockchain &amp; Cryptocurrency,</a></li>
+                        <li><a href="courses-list.html">Quantum Computing</a></li>
+                        <li><a href="courses-list.html">Machine Learning,</a></li>
+                        <li><a href="courses-list.html">DevOps,</a></li>
+                        <li><a href="courses-list.html">Network &amp; Security,</a></li>
+                        <li><a href="courses-list.html">Core IT Skills</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* END CATEGORIE BOX #1 */}
+                {/* CATEGORIE BOX #2 */}
+                <div className="col-md-6 col-lg-4">
+                  <div className="c4-box">
+                    {/* Icon */}
+                    <div className="c4-box-ico mb-15 clearfix">
+                      <div className="c4-ico bg-green">
+                        <img src="images/icons/categories/money.png" alt="category-icon" />
+                      </div>
+                      <h5 className="h5-md">Business</h5>
+                      <p>428 Courses</p>
+                    </div>
+                    {/* List */}
+                    <div className="c4-box-txt">
+                      <ul className="c4-box-list">
+                        <li><a href="courses-list.html">Human Resources,</a></li>
+                        <li><a href="courses-list.html">Project Management,</a></li>
+                        <li><a href="courses-list.html">Entrepreneurship,</a></li>
+                        <li><a href="courses-list.html">Tourism &amp; Hospitality,</a></li>
+                        <li><a href="courses-list.html">Finance,</a></li>
+                        <li><a href="courses-list.html">Sales,</a></li>
+                        <li><a href="courses-list.html">Communications,</a></li>
+                        <li><a href="courses-list.html">E-Commerce,</a></li>
+                        <li><a href="courses-list.html">Leadership &amp; Management,</a></li>
+                        <li><a href="courses-list.html">Business Strategy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* END CATEGORIE BOX #2 */}
+                {/* CATEGORIE BOX #3 */}
+                <div className="col-md-6 col-lg-4">
+                  <div className="c4-box">
+                    {/* Icon */}
+                    <div className="c4-box-ico mb-15 clearfix">
+                      <div className="c4-ico bg-red">
+                        <img src="images/icons/categories/design.png" alt="category-icon" />
+                      </div>
+                      <h5 className="h5-md">Lifestyle</h5>
+                      <p>268 Courses</p>
+                    </div>
+                    {/* List */}
+                    <div className="c4-box-txt">
+                      <ul className="c4-box-list">
+                        <li><a href="courses-list.html">Arts &amp; Crafts,</a></li>
+                        <li><a href="courses-list.html">Food &amp; Beverage,</a></li>
+                        <li><a href="courses-list.html">Beauty &amp; Makeup,</a></li>
+                        <li><a href="courses-list.html">Home Improvement,</a></li>
+                        <li><a href="courses-list.html">Travel,</a></li>
+                        <li><a href="courses-list.html">Pet Care &amp; Training,</a></li>
+                        <li><a href="courses-list.html">Gaming,</a></li>
+                        <li><a href="courses-list.html">Photography,</a></li>
+                        <li><a href="courses-list.html">Skilled Trades</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* END CATEGORIE BOX #3 */}
+                {/* CATEGORIE BOX #4 */}
+                <div className="col-md-6 col-lg-4">
+                  <div className="c4-box">
+                    {/* Icon */}
+                    <div className="c4-box-ico mb-15 clearfix">
+                      <div className="c4-ico bg-teal">
+                        <img src="images/icons/categories/human-mind.png" alt="category-icon" />
+                      </div>
+                      <h5 className="h5-md">Humanities</h5>
+                      <p>417 Courses</p>
+                    </div>
+                    {/* List */}
+                    <div className="c4-box-txt">
+                      <ul className="c4-box-list">
+                        <li><a href="courses-list.html">History,</a></li>
+                        <li><a href="courses-list.html">Literature,</a></li>
+                        <li><a href="courses-list.html">Foreign Language,</a></li>
+                        <li><a href="courses-list.html">Grammar &amp; Writing,</a></li>
+                        <li><a href="courses-list.html">Philosophy,</a></li>
+                        <li><a href="courses-list.html">Religion,</a></li>
+                        <li><a href="courses-list.html">ESL,</a></li>
+                        <li><a href="courses-list.html">Culture,</a></li>
+                        <li><a href="courses-list.html">Sports,</a></li>
+                        <li><a href="courses-list.html">Journalism,</a></li>
+                        <li><a href="courses-list.html">Ethics</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* END CATEGORIE BOX #4 */}
+                {/* CATEGORIE BOX #5 */}
+                <div className="col-md-6 col-lg-4">
+                  <div className="c4-box">
+                    {/* Icon */}
+                    <div className="c4-box-ico mb-15 clearfix">
+                      <div className="c4-ico bg-yellow">
+                        <img src="images/icons/categories/chip.png" alt="category-icon" />
+                      </div>
+                      <h5 className="h5-md">Programming</h5>
+                      <p>284 Courses</p>
+                    </div>
+                    {/* List */}
+                    <div className="c4-box-txt">
+                      <ul className="c4-box-list">
+                        <li><a href="courses-list.html">Mobile Development,</a></li>
+                        <li><a href="courses-list.html">Web Development,</a></li>
+                        <li><a href="courses-list.html">Game Development,</a></li>
+                        <li><a href="courses-list.html">Software Testing,</a></li>
+                        <li><a href="courses-list.html">Programming Languages,</a></li>
+                        <li><a href="courses-list.html">Databases,</a></li>
+                        <li><a href="courses-list.html">Cloud Computing,</a></li>
+                        <li><a href="courses-list.html">Software Development,</a></li>
+                        <li><a href="courses-list.html">Development Tools</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* END CATEGORIE BOX #5 */}
+                {/* CATEGORIE BOX #6 */}
+                <div className="col-md-6 col-lg-4">
+                  <div className="c4-box">
+                    {/* Icon */}
+                    <div className="c4-box-ico mb-15 clearfix">
+                      <div className="c4-ico bg-violet">
+                        <img src="images/icons/categories/heartbeat.png" alt="category-icon" />
+                      </div>
+                      <h5 className="h5-md">Health &amp; Medicine</h5>
+                      <p>179 Courses</p>
+                    </div>
+                    {/* List */}
+                    <div className="c4-box-txt">
+                      <ul className="c4-box-list">
+                        <li><a href="courses-list.html">Anatomy,</a></li>
+                        <li><a href="courses-list.html">Veterinary Science,</a></li>
+                        <li><a href="courses-list.html">Care Nursing</a></li>
+                        <li><a href="courses-list.html">Nutrition &amp; Wellness,</a></li>
+                        <li><a href="courses-list.html">Disease &amp; Disorders,</a></li>
+                        <li><a href="courses-list.html">Public Health,</a></li>
+                        <li><a href="courses-list.html">Mental Health,</a></li>
+                        <li><a href="courses-list.html">Fitness,</a></li>
+                        <li><a href="courses-list.html">Yoga,</a></li>
+                        <li><a href="courses-list.html">Meditation,</a></li>
+                        <li><a href="courses-list.html">Safety &amp; First Aid,</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* END CATEGORIE BOX #6 */}
+                {/* CATEGORIE BOX #7 */}
+                <div className="col-md-6 col-lg-4">
+                  <div className="c4-box">
+                    {/* Icon */}
+                    <div className="c4-box-ico mb-15 clearfix">
+                      <div className="c4-ico bg-orange">
+                        <img src="images/icons/categories/calculator.png" alt="category-icon" />
+                      </div>
+                      <h5 className="h5-md">Mathematics</h5>
+                      <p>369 Courses</p>
+                    </div>
+                    {/* List */}
+                    <div className="c4-box-txt">
+                      <ul className="c4-box-list">
+                        <li><a href="courses-list.html">Discrete Math,</a></li>
+                        <li><a href="courses-list.html">Statistics &amp; Probability,</a></li>
+                        <li><a href="courses-list.html">Spatial Analysis,</a></li>
+                        <li><a href="courses-list.html">Algebra &amp; Geometry,</a></li>
+                        <li><a href="courses-list.html">Foundations of Mathematics,</a></li>
+                        <li><a href="courses-list.html">Calculus,</a></li>
+                        <li><a href="courses-list.html">Trigonometry,</a></li>
+                        <li><a href="courses-list.html">Probability</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* END CATEGORIE BOX #7 */}
+                {/* CATEGORIE BOX #8 */}
+                <div className="col-md-6 col-lg-4">
+                  <div className="c4-box">
+                    {/* Icon */}
+                    <div className="c4-box-ico mb-15 clearfix">
+                      <div className="c4-ico bg-lightgreen">
+                        <img src="images/icons/categories/gear.png" alt="category-icon" />
+                      </div>
+                      <h5 className="h5-md">Engineering</h5>
+                      <p>219 Courses</p>
+                    </div>
+                    {/* List */}
+                    <div className="c4-box-txt">
+                      <ul className="c4-box-list">
+                        <li><a href="courses-list.html">Chemical Engineering,</a></li>
+                        <li><a href="courses-list.html">Civil Engineering,</a></li>
+                        <li><a href="courses-list.html">Electrical Engineering,</a></li>
+                        <li><a href="courses-list.html">Mechanical Engineering,</a></li>
+                        <li><a href="courses-list.html">Robotics,</a></li>
+                        <li><a href="courses-list.html">Nanotechnology,</a></li>
+                        <li><a href="courses-list.html">Manufacturing,</a></li>
+                        <li><a href="courses-list.html">Textiles,</a></li>
+                        <li><a href="courses-list.html">Structural Engineering</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* END CATEGORIE BOX #8 */}
+                {/* CATEGORIE BOX #9 */}
+                <div className="col-md-6 col-lg-4">
+                  <div className="c4-box">
+                    {/* Icon */}
+                    <div className="c4-box-ico mb-15 clearfix">
+                      <div className="c4-ico bg-skyblue">
+                        <img src="images/icons/categories/science.png" alt="category-icon" />
+                      </div>
+                      <h5 className="h5-md">Social Sciences</h5>
+                      <p>370 Courses</p>
+                    </div>
+                    {/* List */}
+                    <div className="c4-box-txt">
+                      <ul className="c4-box-list">
+                        <li><a href="courses-list.html">Sociology,</a></li>
+                        <li><a href="courses-list.html">Economics,</a></li>
+                        <li><a href="courses-list.html">Psychology,</a></li>
+                        <li><a href="courses-list.html">Anthropology,</a></li>
+                        <li><a href="courses-list.html">Political Science,</a></li>
+                        <li><a href="courses-list.html">Urban Planning,</a></li>
+                        <li><a href="courses-list.html">Human Rights,</a></li>
+                        <li><a href="courses-list.html">Law,</a></li>
+                        <li><a href="courses-list.html">Sustainability,</a></li>
+                        <li><a href="courses-list.html">Public Policy</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div> {/* END CATEGORIE BOX #9 */}
+              </div> {/* End row */}
+              {/* ALL COURSES BUTTON */}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="all-courses-btn">
+                    <a href="categories-list.html" className="btn btn-md btn-tra-grey rose-hover">Browse All
+                      Courses</a>
+                  </div>
+                </div>
+              </div>
+            </div> {/* End container */}
+          </section> 
+          <div id="statistic-2" className="bg-01 statistic-section division">
+            <div className="container white-color">
+              <div className="row">
+                {/* STATISTIC BLOCK #1 */}
+                <div className="col-sm-6 col-md-3">
+                  <div className="statistic-block text-center">
+                    {/* Digits */}
+                    <h5 className="statistic-number">2,<span className="count-element">769</span></h5>
+                    {/* Text */}
+                    <p className="p-md">Online Courses</p>
+                  </div>
+                </div>
+                {/* STATISTIC BLOCK #2 */}
+                <div className="col-sm-6 col-md-3">
+                  <div className="statistic-block text-center">
+                    {/* Digits */}
+                    <h5 className="statistic-number"><span className="count-element">637</span></h5>
+                    {/* Text */}
+                    <p className="p-md">Free Tutorials</p>
+                  </div>
+                </div>
+                {/* STATISTIC BLOCK #3 */}
+                <div className="col-sm-6 col-md-3">
+                  <div className="statistic-block text-center">
+                    {/* Digits */}
+                    <h5 className="statistic-number"><span className="count-element">942</span></h5>
+                    {/* Text */}
+                    <p className="p-md">eBooks Available</p>
+                  </div>
+                </div>
+                {/* STATISTIC BLOCK #4 */}
+                <div className="col-sm-6 col-md-3">
+                  <div className="statistic-block text-center">
+                    {/* Digits */}
+                    <h5 className="statistic-number">9,<span className="count-element">986</span></h5>
+                    {/* Text */}
+                    <p className="p-md">Happy Students</p>
+                  </div>
+                </div>
+              </div> {/* End row */}
+            </div> {/* End container */}
+          </div> 
+          <section id="courses-1" className="wide-100 courses-section division">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-title title-centered mb-60">
+                    <h3 className="h3-sm">Best Online Courses of 2019</h3>
+                    <p className="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
+                      tempus, blandit posuere and ligula varius magna a porta
+                    </p>
+                    <div className="title-btn">
+                      <a href="courses-list.html" className="btn btn-rose tra-grey-hover">View All Courses</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* COURSE BOXES CAROUSEL */}
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="owl-carousel owl-theme owl-loaded courses-carousel">
+                    <div className="cbox-1">
+                      <a href="course-details.html">
+                        <img className="img-fluid" src="images/courses/course-1-img.jpg" alt="course-preview" />
+                        <div className="cbox-1-txt">
+                          <p className="course-tags">
+                            <span>Languages</span>
+                            <span>English</span>
+                          </p>
+                          <h5 className="h5-xs">Beginner Level English - Foundations</h5>
+                          <div className="course-rating clearfix">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star-half-alt" />
+                            <span>4.5 (26 Ratings)</span>
+                          </div>
+                          <span className="course-price"><span className="old-price">$149.99</span> $138.99</span>
+                        </div>
+                      </a>
+                    </div>
+                    <div className="cbox-1">
+                      <a href="course-details.html">
+                        <img className="img-fluid" src="images/courses/course-2-img.jpg" alt="course-preview" />
+                        <div className="cbox-1-txt">
+                          <p className="course-tags">
+                            <span>Languages</span>
+                            <span>English</span>
+                          </p>
+                          <h5 className="h5-xs">Diploma in Basic English Grammar - Revised 2019</h5>
+                          <div className="course-rating clearfix">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <span>5 (118 Ratings)</span>
+                          </div>
+                          <span className="course-price"><span className="old-price">$174.99</span> $59.99</span>
+                        </div>
+                      </a>
+                    </div> 
+                    {/* COURSE #3 */}
+                    <div className="cbox-1">
+                      <a href="course-details.html">
+                        {/* Image */}
+                        <img className="img-fluid" src="images/courses/course-3-img.jpg" alt="course-preview" />
+                        {/* Text */}
+                        <div className="cbox-1-txt">
+                          {/* Course Tags */}
+                          <p className="course-tags">
+                            <span>Network Security</span>
+                          </p>
+                          {/* Title */}
+                          <h5 className="h5-xs">The Complete Cyber Security Course : End Point Protection!
+                          </h5>
+                          {/* Course Rating */}
+                          <div className="course-rating clearfix">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star-half-alt" />
+                            <span>4.5 (72 Ratings)</span>
+                          </div>
+                          {/* Course Price */}
+                          <span className="course-price"><span className="old-price">$119.99</span> $34.99</span>
+                        </div>
+                      </a>
+                    </div> {/* END COURSE #3 */}
+                    {/* COURSE #4 */}
+                    <div className="cbox-1">
+                      <a href="course-details.html">
+                        {/* Image */}
+                        <img className="img-fluid" src="images/courses/course-4-img.jpg" alt="course-preview" />
+                        {/* Text */}
+                        <div className="cbox-1-txt">
+                          {/* Course Tags */}
+                          <p className="course-tags">
+                            <span>SEO</span>
+                            <span>Marketing</span>
+                          </p>
+                          {/* Title */}
+                          <h5 className="h5-xs">Google AdWords for Beginners 2020</h5>
+                          {/* Course Rating */}
+                          <div className="course-rating clearfix">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <span>5 (281 Ratings)</span>
+                          </div>
+                          {/* Course Price */}
+                          <span className="course-price">Free Course</span>
+                        </div>
+                      </a>
+                    </div> {/* END COURSE #4 */}
+                    {/* COURSE #5 */}
+                    <div className="cbox-1">
+                      <a href="course-details.html">
+                        {/* Image */}
+                        <img className="img-fluid" src="images/courses/course-5-img.jpg" alt="course-preview" />
+                        {/* Text */}
+                        <div className="cbox-1-txt">
+                          {/* Course Tags */}
+                          <p className="course-tags">
+                            <span>Design</span>
+                            <span>WordPress</span>
+                          </p>
+                          {/* Title */}
+                          <h5 className="h5-xs">Wordpress for Beginners - Master Wordpress Quickly</h5>
+                          {/* Course Rating */}
+                          <div className="course-rating clearfix">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <span>4.15 (58 Ratings)</span>
+                          </div>
+                          {/* Course Price */}
+                          <span className="course-price"><span className="old-price">$194.99</span> $62.99</span>
+                        </div>
+                      </a>
+                    </div> {/* END COURSE #5 */}
+                    {/* COURSE #6 */}
+                    <div className="cbox-1">
+                      <a href="course-details.html">
+                        {/* Image */}
+                        <img className="img-fluid" src="images/courses/course-6-img.jpg" alt="course-preview" />
+                        {/* Text */}
+                        <div className="cbox-1-txt">
+                          {/* Course Tags */}
+                          <p className="course-tags">
+                            <span>Sowtware</span>
+                            <span>Productivity</span>
+                          </p>
+                          {/* Title */}
+                          <h5 className="h5-xs">Excel Essentials: The Complete Excel Series - Level 1 &amp; 2</h5>
+                          {/* Course Rating */}
+                          <div className="course-rating clearfix">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <span>5 (31 Ratings)</span>
+                          </div>
+                          {/* Course Price */}
+                          <span className="course-price"><span className="old-price">$149.99</span> $45.99</span>
+                        </div>
+                      </a>
+                    </div> {/* END COURSE #6 */}
+                    {/* COURSE #7 */}
+                    <div className="cbox-1">
+                      <a href="course-details.html">
+                        {/* Image */}
+                        <img className="img-fluid" src="images/courses/course-7-img.jpg" alt="course-preview" />
+                        {/* Text */}
+                        <div className="cbox-1-txt">
+                          {/* Course Tags */}
+                          <p className="course-tags">
+                            <span>Web Design</span>
+                            <span>HTML 5</span>
+                          </p>
+                          {/* Title */}
+                          <h5 className="h5-xs">Landing Page Design &amp; Conversion Rate Optimization 2020</h5>
+                          {/* Course Rating */}
+                          <div className="course-rating clearfix">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star-half-alt" />
+                            <span>4.8 (74 Ratings)</span>
+                          </div>
+                          {/* Course Price */}
+                          <span className="course-price"><span className="old-price">$109.99</span> $23.99</span>
+                        </div>
+                      </a>
+                    </div> {/* END COURSE #7 */}
+                    {/* COURSE #8 */}
+                    <div className="cbox-1">
+                      <a href="course-details.html">
+                        {/* Image */}
+                        <img className="img-fluid" src="images/courses/course-8-img.jpg" alt="course-preview" />
+                        {/* Text */}
+                        <div className="cbox-1-txt">
+                          {/* Course Tags */}
+                          <p className="course-tags">
+                            <span>Internet</span>
+                            <span>Marketing</span>
+                          </p>
+                          {/* Title */}
+                          <h5 className="h5-xs">Instagram Marketing 2020: A Step-By-Step to 10,000 Followers
+                          </h5>
+                          {/* Course Rating */}
+                          <div className="course-rating clearfix">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <span>5 (374 Ratings)</span>
+                          </div>
+                          {/* Course Price */}
+                          <span className="course-price"><span className="old-price">$169.99</span> $33.99</span>
+                        </div>
+                      </a>
+                    </div> {/* END COURSE #8 */}
+                  </div>
+                </div>
+              </div> {/* END COURSES BOXES CAROUSEL */}
+            </div> {/* End container */}
+          </section> {/* END COURSES-1 */}
+          {/* VIDEO-1
+    ============================================= */}
+          <section id="video-1" className="bg-lightgrey bg-map video-ection division">
+            <div className="container">
+              <div className="video-1-holder">
+                <div className="row d-flex align-items-center">
+                  {/* VIDEO LINK */}
+                  <div className="col-md-6">
+                    <div className="video-link text-center">
+                      {/* Change the link HERE!!! */}
+                      <div className="play-btn play-btn-rose text-center">
+                        <a className="video-popup3 video-play-button" href="https://www.youtube.com/embed/0gv7OC9L2s8">
+                          <span />
+                        </a>
+                        {/* Preview Image */}
+                        <img className="img-fluid" src="images/video-1-img.jpg" alt="video-preview" />
+                      </div>
+                    </div>
+                  </div> {/* END VIDEO LINK */}
+                  {/* VIDEO TEXT */}
+                  <div className="col-md-6">
+                    <div className="video-txt">
+                      {/* Title */}
+                      <h4 className="h4-xl">Take the first step to knowledge with <span>eTreeks</span></h4>
+                      {/* Text */}
+                      <p className="p-md">Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor
+                        feugiat,
+                        felis lacinia risus
+                      </p>
+                      {/* Button */}
+                      <a href="courses-list.html" className="btn btn-rose tra-black-hover">Find Out More</a>
+                    </div>
+                  </div> {/* END VIDEO TEXT */}
+                </div> {/* End row */}
+              </div> {/* End video-1-holder */}
+            </div> {/* End container */}
+          </section> {/* END VIDEO-1 */}
+          {/* COURSES-3
+    ============================================= */}
+          <section id="courses-3" className="wide-60 courses-section division">
+            <div className="container">
+              {/* SECTION TITLE */}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-title title-centered mb-60">
+                    {/* Title 	*/}
+                    <h3 className="h3-sm">Highest Rated Online Courses</h3>
+                    {/* Text */}
+                    <p className="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
+                      tempus, blandit posuere and ligula varius magna a porta
+                    </p>
+                    {/* Button 
+              <div class="title-btn">
+                <a href="courses-list.html" class="btn btn-rose tra-black-hover">View All Courses</a>
+              </div> */}
+                  </div>
+                </div>
+              </div>
+              {/* COURSES HOLDER */}
+              <div className="row courses-grid">
+                {/* COURSE #1 */}
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                  <div className="cbox-1">
+                    <a href="course-details.html">
+                      {/* Image */}
+                      <img className="img-fluid" src="images/courses/course-1-img.jpg" alt="course-preview" />
+                      {/* Text */}
+                      <div className="cbox-1-txt">
+                        {/* Course Tags */}
+                        <p className="course-tags">
+                          <span>Languages</span>
+                          <span>English</span>
+                        </p>
+                        {/* Course Title */}
+                        <h5 className="h5-xs">Beginner Level English - Foundations</h5>
+                        {/* Course Rating */}
+                        <div className="course-rating clearfix">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star-half-alt" />
+                          <span>4.5 (26 Ratings)</span>
+                        </div>
+                        {/* Course Price */}
+                        <span className="course-price"><span className="old-price">$149.99</span> $138.99</span>
+                      </div>
+                    </a>
+                  </div>
+                </div> {/* END COURSE #1 */}
+                {/* COURSE #2 */}
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                  <div className="cbox-1">
+                    <a href="course-details.html">
+                      {/* Image */}
+                      <img className="img-fluid" src="images/courses/course-2-img.jpg" alt="course-preview" />
+                      {/* Text */}
+                      <div className="cbox-1-txt">
+                        {/* Course Tags */}
+                        <p className="course-tags">
+                          <span>Languages</span>
+                          <span>English</span>
+                        </p>
+                        {/* Title */}
+                        <h5 className="h5-xs">Diploma in Basic English Grammar - Revised 2019</h5>
+                        {/* Course Rating */}
+                        <div className="course-rating clearfix">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <span>5 (118 Ratings)</span>
+                        </div>
+                        {/* Course Price */}
+                        <span className="course-price"><span className="old-price">$174.99</span> $59.99</span>
+                      </div>
+                    </a>
+                  </div>
+                </div> {/* END COURSE #2 */}
+                {/* COURSE #3 */}
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                  <div className="cbox-1">
+                    <a href="course-details.html">
+                      {/* Image */}
+                      <img className="img-fluid" src="images/courses/course-3-img.jpg" alt="course-preview" />
+                      {/* Text */}
+                      <div className="cbox-1-txt">
+                        {/* Course Tags */}
+                        <p className="course-tags">
+                          <span>Network Security</span>
+                        </p>
+                        {/* Title */}
+                        <h5 className="h5-xs">The Complete Cyber Security Course : End Point Protection!</h5>
+                        {/* Course Rating */}
+                        <div className="course-rating clearfix">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star-half-alt" />
+                          <span>4.5 (72 Ratings)</span>
+                        </div>
+                        {/* Course Price */}
+                        <span className="course-price"><span className="old-price">$119.99</span> $34.99</span>
+                      </div>
+                    </a>
+                  </div>
+                </div> {/* END COURSE #3 */}
+                {/* COURSE #4 */}
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                  <div className="cbox-1">
+                    <a href="course-details.html">
+                      {/* Image */}
+                      <img className="img-fluid" src="images/courses/course-4-img.jpg" alt="course-preview" />
+                      {/* Text */}
+                      <div className="cbox-1-txt">
+                        {/* Course Tags */}
+                        <p className="course-tags">
+                          <span>SEO</span>
+                          <span>Marketing</span>
+                        </p>
+                        {/* Title */}
+                        <h5 className="h5-xs">Google AdWords for Beginners 2020</h5>
+                        {/* Course Rating */}
+                        <div className="course-rating clearfix">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <span>5 (281 Ratings)</span>
+                        </div>
+                        {/* Course Price */}
+                        <span className="course-price">Free Course</span>
+                      </div>
+                    </a>
+                  </div>
+                </div> {/* END COURSE #4 */}
+                {/* COURSE #5 */}
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                  <div className="cbox-1">
+                    <a href="course-details.html">
+                      {/* Image */}
+                      <img className="img-fluid" src="images/courses/course-5-img.jpg" alt="course-preview" />
+                      {/* Text */}
+                      <div className="cbox-1-txt">
+                        {/* Course Tags */}
+                        <p className="course-tags">
+                          <span>Design</span>
+                          <span>WordPress</span>
+                        </p>
+                        {/* Title */}
+                        <h5 className="h5-xs">Wordpress for Beginners - Master Wordpress Quickly</h5>
+                        {/* Course Rating */}
+                        <div className="course-rating clearfix">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <span>4.15 (58 Ratings)</span>
+                        </div>
+                        {/* Course Price */}
+                        <span className="course-price"><span className="old-price">$194.99</span> $62.99</span>
+                      </div>
+                    </a>
+                  </div>
+                </div> {/* END COURSE #5 */}
+                {/* COURSE #6 */}
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                  <div className="cbox-1">
+                    <a href="course-details.html">
+                      {/* Image */}
+                      <img className="img-fluid" src="images/courses/course-6-img.jpg" alt="course-preview" />
+                      {/* Text */}
+                      <div className="cbox-1-txt">
+                        {/* Course Tags */}
+                        <p className="course-tags">
+                          <span>Sowtware</span>
+                          <span>Productivity</span>
+                        </p>
+                        {/* Title */}
+                        <h5 className="h5-xs">Excel Essentials: The Complete Excel Series - Level 1 &amp; 2</h5>
+                        {/* Course Rating */}
+                        <div className="course-rating clearfix">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <span>5 (31 Ratings)</span>
+                        </div>
+                        {/* Course Price */}
+                        <span className="course-price"><span className="old-price">$149.99</span> $45.99</span>
+                      </div>
+                    </a>
+                  </div>
+                </div> {/* END COURSE #6 */}
+                {/* COURSE #7 */}
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                  <div className="cbox-1">
+                    <a href="course-details.html">
+                      {/* Image */}
+                      <img className="img-fluid" src="images/courses/course-5-img.jpg" alt="course-preview" />
+                      {/* Text */}
+                      <div className="cbox-1-txt">
+                        {/* Course Tags */}
+                        <p className="course-tags">
+                          <span>Web Design</span>
+                          <span>HTML 5</span>
+                        </p>
+                        {/* Title */}
+                        <h5 className="h5-xs">Landing Page Design &amp; Conversion Rate Optimization 2020</h5>
+                        {/* Course Rating */}
+                        <div className="course-rating clearfix">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star-half-alt" />
+                          <span>4.8 (74 Ratings)</span>
+                        </div>
+                        {/* Course Price */}
+                        <span className="course-price"><span className="old-price">$109.99</span> $23.99</span>
+                      </div>
+                    </a>
+                  </div>
+                </div> {/* END COURSE #7 */}
+                {/* COURSE #8 */}
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                  <div className="cbox-1">
+                    <a href="course-details.html">
+                      {/* Image */}
+                      <img className="img-fluid" src="images/courses/course-8-img.jpg" alt="course-preview" />
+                      {/* Text */}
+                      <div className="cbox-1-txt">
+                        {/* Course Tags */}
+                        <p className="course-tags">
+                          <span>Internet</span>
+                          <span>Marketing</span>
+                        </p>
+                        {/* Title */}
+                        <h5 className="h5-xs">Instagram Marketing 2020: A Step-By-Step to 10,000 Followers</h5>
+                        {/* Course Rating */}
+                        <div className="course-rating clearfix">
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <i className="fas fa-star" />
+                          <span>5 (374 Ratings)</span>
+                        </div>
+                        {/* Course Price */}
+                        <span className="course-price"><span className="old-price">$169.99</span> $33.99</span>
+                      </div>
+                    </a>
+                  </div>
+                </div> {/* END COURSE #8 */}
+              </div> {/* END COURSES HOLDER */}
+              {/* ALL COURSES BUTTON */}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="all-courses-btn">
+                    <a href="categories-list.html" className="btn btn-md btn-rose tra-black-hover">Browse All
+                      Courses</a>
+                  </div>
+                </div>
+              </div>
+            </div> {/* End container */}
+          </section> {/* END COURSES-3 */}
+          {/* BANNER-2
+    ============================================= */}
+          <section id="banner-2" className="bg-06 wide-60 banner-section">
+            <div className="container">
+              <div className="row d-flex align-items-center">
+                {/* BANNER TEXT */}
+                <div className="col-md-7">
+                  <div className="banner-2-txt white-color">
+                    {/* Title */}
+                    <h3 className="h3-lg">Register now for getting <span>200+ courses free access</span>. This offer
+                      for limited time</h3>
+                    {/* COUNTDOWN ELEMENT */}
+                    <div className="countdown"><span className="countdown-txt">Ends in</span>
+                      <div id="clock" />
+                    </div>
+                  </div>
+                </div>
+                {/* REGISTER FORM */}
+                <div className="col-md-5">
+                  <div id="register-form">
+                    <form name="registerForm" className="row register-form">
+                      {/* Form Input */}
+                      <div id="input-name" className="col-md-12">
+                        <p>Your Name*</p>
+                        <input type="text" name="name" autoComplete="off" className="form-control name" placeholder="Enter Your Name*" required />
+                      </div>
+                      {/* Form Input */}
+                      <div id="input-email" className="col-md-12">
+                        <p>Your Email*</p>
+                        <input type="email" name="email" autoComplete="off" className="form-control email" placeholder="Enter Your Email*" required />
+                      </div>
+                      {/* Form Input */}
+                      <div id="input-phone" className="col-md-12">
+                        <p>Your Pnone Number*</p>
+                        <input type="tel" name="phone" autoComplete="off" className="form-control phone" placeholder="Enter Your Phone Number*" required />
+                      </div>
+                      {/* Form Button */}
+                      <div className="col-md-12 form-btn">
+                        <button type="submit" className="btn btn-md btn-rose tra-black-hover submit">Register
+                          Now</button>
+                      </div>
+                      {/* Form Message */}
+                      <div className="col-md-12 register-form-msg text-center">
+                        <span className="loading" />
+                      </div>
+                    </form>
+                  </div>
+                </div> {/* END REGISTER FORM */}
+              </div> {/* End row */}
+            </div> {/* End container */}
+          </section> {/* END BANNER-2 */}
+          {/* COURSES-5
+    ============================================= */}
+          <section id="courses-5" className="courses-section division">
+            <div className="container">
+              {/* SECTION TITLE */}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-title title-centered mb-60">
+                    {/* Title 	*/}
+                    <h3 className="h3-sm">Best Online Courses of All-Time</h3>
+                    {/* Text */}
+                    <p className="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
+                      tempus, blandit posuere and ligula varius magna a porta
+                    </p>
+                    {/* Button 
+              <div class="title-btn">
+                <a href="courses-list.html" class="btn btn-rose tra-black-hover">View All Courses</a>
+              </div>*/}
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                {/* COURSES LIST */}
+                <div className="col-lg-6">
+                  {/* COURSE #1 */}
+                  <div className="cbox-5 b-bottom">
+                    <a href="course-details.html">
+                      <div className="row">
+                        {/* Course Description */}
+                        <div className="col-sm-7 cbox-5-txt">
+                          <h5 className="h5-xs">Diploma in Basic English Grammar - Revised 2020</h5>
+                          <p className="p-sm grey-color">11 Total Hours - Updated 2/2020</p>
+                          {/* Rating */}
+                          <div className="course-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <span className="cr-rating">4.89 (31 Reviews)</span>
+                          </div>
+                        </div>
+                        {/* Course Data */}
+                        <div className="col-sm-3 cbox-5-data text-center clearfix">
+                          <p className="grey-color"><i className="fas fa-users" /> 7348</p>
+                        </div>
+                        {/* Course Price */}
+                        <div className="col-sm-2 cbox-5-price text-right clearfix">
+                          <span className="course-price">$64.99</span>
+                          <span className="old-price">$119.99</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div> {/* END COURSE #1 */}
+                  {/* COURSE #2 */}
+                  <div className="cbox-5 b-bottom">
+                    <a href="course-details.html">
+                      <div className="row">
+                        {/* Course Description */}
+                        <div className="col-sm-7 cbox-5-txt">
+                          <h5 className="h5-xs">Diploma in Information Technology Management</h5>
+                          <p className="p-sm grey-color">8 Total Hours - Updated 12/2019</p>
+                          {/* Rating */}
+                          <div className="course-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star-half-alt" />
+                            <span className="cr-rating">4.19 (76 Reviews)</span>
+                          </div>
+                        </div>
+                        {/* Course Data */}
+                        <div className="col-sm-3 cbox-5-data text-center clearfix">
+                          <p className="grey-color"><i className="fas fa-users" /> 12035</p>
+                        </div>
+                        {/* Course Price */}
+                        <div className="col-sm-2 cbox-5-price text-right clearfix">
+                          <span className="course-price">$29.99</span>
+                          <span className="old-price">$69.99</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div> {/* END COURSE #2 */}
+                  {/* COURSE #3 */}
+                  <div className="cbox-5">
+                    <a href="course-details.html">
+                      <div className="row">
+                        {/* Course Description */}
+                        <div className="col-sm-7 cbox-5-txt">
+                          <h5 className="h5-xs">Wordpress for Beginners - Master Wordpress Quickly</h5>
+                          <p className="p-sm grey-color">23 Total Hours - Updated 01/2020</p>
+                          {/* Rating */}
+                          <div className="course-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <span className="cr-rating">4.15 (58 Ratings)</span>
+                          </div>
+                        </div>
+                        {/* Course Data */}
+                        <div className="col-sm-3 cbox-5-data text-center clearfix">
+                          <p className="grey-color"><i className="fas fa-users" /> 10651</p>
+                        </div>
+                        {/* Course Price */}
+                        <div className="col-sm-2 cbox-5-price text-right clearfix">
+                          <span className="course-price">$44.99</span>
+                          <span className="old-price">$74.99</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div> {/* END COURSE #3 */}
+                </div> {/* END COURSES LIST */}
+                {/* COURSES LIST */}
+                <div className="col-lg-6">
+                  {/* COURSE #4 */}
+                  <div className="cbox-5 b-bottom">
+                    <a href="course-details.html">
+                      <div className="row">
+                        {/* Course Description */}
+                        <div className="col-sm-7 cbox-5-txt">
+                          <h5 className="h5-xs">Instagram Marketing 2020: A Step-By-Step to 10,000 Followers
+                          </h5>
+                          <p className="p-sm grey-color">19 Total Hours - Updated 2/2020</p>
+                          {/* Rating */}
+                          <div className="course-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star-half-alt" />
+                            <span className="cr-rating">4.08 (164 Reviews)</span>
+                          </div>
+                        </div>
+                        {/* Course Data */}
+                        <div className="col-sm-3 cbox-5-data text-center clearfix">
+                          <p className="grey-color"><i className="fas fa-users" /> 15491</p>
+                        </div>
+                        {/* Course Price */}
+                        <div className="col-sm-2 cbox-5-price text-right clearfix">
+                          <span className="course-price">$39.99</span>
+                          <span className="old-price">$84.99</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div> {/* END COURSE #4 */}
+                  {/* COURSE #5 */}
+                  <div className="cbox-5 b-bottom">
+                    <a href="course-details.html">
+                      <div className="row">
+                        {/* Course Description */}
+                        <div className="col-sm-7 cbox-5-txt">
+                          <h5 className="h5-xs">Computer Networking - Wired &amp; Wireless Networks</h5>
+                          <p className="p-sm grey-color">36 Total Hours - Updated 12/2019</p>
+                          {/* Rating */}
+                          <div className="course-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <span className="cr-rating">4.79 (117 Reviews)</span>
+                          </div>
+                        </div>
+                        {/* Course Data */}
+                        <div className="col-sm-3 cbox-5-data text-center clearfix">
+                          <p className="grey-color"><i className="fas fa-users" /> 17035</p>
+                        </div>
+                        {/* Course Price */}
+                        <div className="col-sm-2 cbox-5-price text-right clearfix">
+                          <span className="course-price">$49.99</span>
+                          <span className="old-price">$99.99</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div> {/* END COURSE #5 */}
+                  {/* COURSE #6 */}
+                  <div className="cbox-5">
+                    <a href="course-details.html">
+                      <div className="row">
+                        {/* Course Description */}
+                        <div className="col-sm-7 cbox-5-txt">
+                          <h5 className="h5-xs">Diesel Engine Cycles, Maintenance, &amp; Control</h5>
+                          <p className="p-sm grey-color">24 Total Hours - Updated 11/2019</p>
+                          {/* Rating */}
+                          <div className="course-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star-half-alt" />
+                            <span className="cr-rating">4.42 (82 Ratings)</span>
+                          </div>
+                        </div>
+                        {/* Course Data */}
+                        <div className="col-sm-3 cbox-5-data text-center clearfix">
+                          <p className="grey-color"><i className="fas fa-users" /> 8163</p>
+                        </div>
+                        {/* Course Price */}
+                        <div className="col-sm-2 cbox-5-price text-right clearfix">
+                          <span className="course-price">$32.99</span>
+                          <span className="old-price">$62.99</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div> {/* END COURSE #6 */}
+                </div> {/* END COURSES LIST */}
+              </div> {/* End row */}
+            </div> {/* End container */}
+          </section> {/* END COURSES-5 */}
+          {/* TESTIMONIALS-1
+    ============================================= */}
+          <section id="reviews-1" className="bg-whitesmoke wide-100 reviews-section division">
+            <div className="container">
+              {/* SECTION TITLE */}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-title title-centered mb-60">
+                    {/* Title 	*/}
+                    <h3 className="h3-sm">Success Stories From Our Students</h3>
+                    {/* Text */}
+                    <p className="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
+                      tempus, blandit posuere and ligula varius magna a porta
+                    </p>
+                    {/* Button 
+              <div class="title-btn">
+                <a href="reviews.html" class="btn btn-tra-grey rose-hover">Read All Reviews</a>
+              </div> */}
+                  </div>
+                </div>
+              </div>
+              {/* TESTIMONIALS CONTENT */}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="owl-carousel owl-theme reviews-holder">
+                    {/* TESTIMONIAL #1 */}
+                    <div className="review-1">
+                      {/* Quote Icon */}
+                      <div className="quote-ico"><img src="images/left-quote.png" alt="quote-image" /></div>
+                      {/* Testimonial Text */}
+                      <p>Etiam sapien sem at sagittis congue an augue massa and varius egestas at suscipit
+                        magna
+                        tempus and aliquet porta vitae purus congue undo cursus magna cubilia augue vitae
+                        laoreet
+                      </p>
+                      {/* Author Data */}
+                      <div className="review-1-author d-flex align-items-center">
+                        {/* Author Avatar */}
+                        <div className="author-avatar">
+                          <img className="img-fluid" src="images/review-author-1.jpg" alt="review-author-avatar" />
+                        </div>
+                        {/* Testimonial Author */}
+                        <div className="review-author">
+                          {/* Rating */}
+                          <div className="tst-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                          </div>
+                          <h5 className="h5-xs">Jim M.</h5>
+                          <span>Software Engineer</span>
+                        </div>
+                      </div>
+                    </div> {/*END  TESTIMONIAL #1 */}
+                    {/* TESTIMONIAL #2 */}
+                    <div className="review-1">
+                      {/* Quote Icon */}
+                      <div className="quote-ico"><img src="images/left-quote.png" alt="quote-image" /></div>
+                      {/* Testimonial Text */}
+                      <p>At sagittis congue augue egestas rhoncus in magna ipsum vitae purus ipsum primis
+                        cubilia
+                        laoreet augue egestas luctus and donec diam ociis ultrice ligula magna suscipit
+                      </p>
+                      {/* Author Data */}
+                      <div className="review-1-author d-flex align-items-center">
+                        {/* Author Avatar */}
+                        <div className="author-avatar">
+                          <img className="img-fluid" src="images/review-author-2.jpg" alt="review-author-avatar" />
+                        </div>
+                        {/* Testimonial Author */}
+                        <div className="review-author">
+                          {/* Rating */}
+                          <div className="tst-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star-half-alt" />
+                          </div>
+                          <h5 className="h5-xs">Jennifer</h5>
+                          <span>Graphic Designer</span>
+                        </div>
+                      </div>
+                    </div> {/* END TESTIMONIAL #2 */}
+                    {/* TESTIMONIAL #3 */}
+                    <div className="review-1">
+                      {/* Quote Icon */}
+                      <div className="quote-ico"><img src="images/left-quote.png" alt="quote-image" /></div>
+                      {/* Testimonial Text */}
+                      <p>Mauris donec an ociis magnis sapien etiam a sapien congue augue egestas et ultrice
+                        undo
+                        purus and diam integer congue at magna ligula an egestas magna suscipit lectus
+                      </p>
+                      {/* Author Data */}
+                      <div className="review-1-author d-flex align-items-center">
+                        {/* Author Avatar */}
+                        <div className="author-avatar">
+                          <img className="img-fluid" src="images/review-author-3.jpg" alt="review-author-avatar" />
+                        </div>
+                        {/* Testimonial Author */}
+                        <div className="review-author">
+                          {/* Rating */}
+                          <div className="tst-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                          </div>
+                          <h5 className="h5-xs">Joel Peterson</h5>
+                          <span>Online Student</span>
+                        </div>
+                      </div>
+                    </div> {/* END TESTIMONIAL #3 */}
+                    {/* TESTIMONIAL #4 */}
+                    <div className="review-1">
+                      {/* Quote Icon */}
+                      <div className="quote-ico"><img src="images/left-quote.png" alt="quote-image" /></div>
+                      {/* Testimonial Text */}
+                      <p>Sapien etiam sapien congue pretium augue purus and ligula lectus aenean magna mauris
+                        lectus
+                        laoreet tempor and egestas magna vitae laoreet
+                      </p>
+                      {/* Author Data */}
+                      <div className="review-1-author d-flex align-items-center">
+                        {/* Author Avatar */}
+                        <div className="author-avatar">
+                          <img className="img-fluid" src="images/review-author-4.jpg" alt="review-author-avatar" />
+                        </div>
+                        {/* Testimonial Author */}
+                        <div className="review-author">
+                          {/* Rating */}
+                          <div className="tst-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                          </div>
+                          <h5 className="h5-xs">Michael Deal</h5>
+                          <span>UX Designer</span>
+                        </div>
+                      </div>
+                    </div> {/* END TESTIMONIAL #4 */}
+                    {/* TESTIMONIAL #5 */}
+                    <div className="review-1">
+                      {/* Quote Icon */}
+                      <div className="quote-ico"><img src="images/left-quote.png" alt="quote-image" /></div>
+                      {/* Testimonial Text */}
+                      <p>An augue cubilia laoreet and magna suscipit egestas magna ipsum purus ipsum primis
+                        and augue
+                        ultrice ligula egestas suscipit lectus gestas integer congue a lectus porta
+                        elementum
+                      </p>
+                      {/* Author Data */}
+                      <div className="review-1-author d-flex align-items-center">
+                        {/* Author Avatar */}
+                        <div className="author-avatar">
+                          <img className="img-fluid" src="images/review-author-5.jpg" alt="review-author-avatar" />
+                        </div>
+                        {/* Testimonial Author */}
+                        <div className="review-author">
+                          {/* Rating */}
+                          <div className="tst-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star-half-alt" />
+                          </div>
+                          <h5 className="h5-xs">Mark Paterson</h5>
+                          <span>Networking Student</span>
+                        </div>
+                      </div>
+                    </div> {/* END TESTIMONIAL #5 */}
+                    {/* TESTIMONIAL #6 */}
+                    <div className="review-1">
+                      {/* Quote Icon */}
+                      <div className="quote-ico"><img src="images/left-quote.png" alt="quote-image" /></div>
+                      {/* Testimonial Text */}
+                      <p>An augue cubilia laoreet undo magna a suscipit egestas magna and ipsum ligula vitae
+                        purus and
+                        ipsum primis in cubilia mollis risus lectus rutrum
+                      </p>
+                      {/* Author Data */}
+                      <div className="review-1-author d-flex align-items-center">
+                        {/* Author Avatar */}
+                        <div className="author-avatar">
+                          <img className="img-fluid" src="images/review-author-6.jpg" alt="review-author-avatar" />
+                        </div>
+                        {/* Testimonial Author */}
+                        <div className="review-author">
+                          {/* Rating */}
+                          <div className="tst-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                          </div>
+                          <h5 className="h5-xs">David L.</h5>
+                          <span>WordPress Student</span>
+                        </div>
+                      </div>
+                    </div> {/* END TESTIMONIAL #6 */}
+                    {/* TESTIMONIAL #7 */}
+                    <div className="review-1">
+                      {/* Quote Icon */}
+                      <div className="quote-ico"><img src="images/left-quote.png" alt="quote-image" /></div>
+                      {/* Testimonial Text */}
+                      <p>Augue egestas volutpat and egestas an augue purus cubilia laoreet magna suscipit
+                        luctus and
+                        dolor blandit vitae purus diam tempus aliquet porta at rutrum placerat gestas
+                        egestas
+                      </p>
+                      {/* Author Data */}
+                      <div className="review-1-author d-flex align-items-center">
+                        {/* Author Avatar */}
+                        <div className="author-avatar">
+                          <img className="img-fluid" src="images/review-author-7.jpg" alt="review-author-avatar" />
+                        </div>
+                        {/* Testimonial Author */}
+                        <div className="review-author">
+                          {/* Rating */}
+                          <div className="tst-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                          </div>
+                          <h5 className="h5-xs">Aaron Wall</h5>
+                          <span>Online Student</span>
+                        </div>
+                      </div>
+                    </div> {/* END TESTIMONIAL #7 */}
+                    {/* TESTIMONIAL #8 */}
+                    <div className="review-1">
+                      {/* Quote Icon */}
+                      <div className="quote-ico"><img src="images/left-quote.png" alt="quote-image" /></div>
+                      {/* Testimonial Text */}
+                      <p>Augue egestas volutpat and egestas augue in cubilia vitae laoreet a magna suscipit
+                        luctus at dolor
+                        blandit purus diam tempus elementum massa
+                      </p>
+                      {/* Author Data */}
+                      <div className="review-1-author d-flex align-items-center">
+                        {/* Author Avatar */}
+                        <div className="author-avatar">
+                          <img className="img-fluid" src="images/review-author-8.jpg" alt="review-author-avatar" />
+                        </div>
+                        {/* Testimonial Author */}
+                        <div className="review-author">
+                          {/* Rating */}
+                          <div className="tst-rating">
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                            <i className="fas fa-star" />
+                          </div>
+                          <h5 className="h5-xs">Andre Wisdom</h5>
+                          <span>PHP Student</span>
+                        </div>
+                      </div>
+                    </div> {/* END TESTIMONIAL #8 */}
+                  </div>
+                </div>
+              </div> {/* END TESTIMONIALS CONTENT */}
+            </div> {/* End container */}
+          </section> {/* END TESTIMONIALS-1 */}
+          {/* CATEGORIES-1
+    ============================================= */}
+          <section id="categories-1" className="categories-section division">
+            <div className="container">
+              {/* SECTION TITLE */}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-title mb-40">
+                    {/* Title 	*/}
+                    <h4 className="h4-xs">Most Popular Categories of 2019</h4>
+                    {/* Text */}
+                    <p className="p-md">Discover thousands of online courses from the best experts</p>
+                    {/* Button 
+              <div class="title-btn">
+                <a href="categories-list.html" class="btn btn-tra-grey rose-hover">View All Categories</a>
+              </div> */}
+                  </div>
+                </div>
+              </div>
+              <div className="row d-flex align-items-center">
+                <div className="col text-center">
+                  {/* CATEGORIE BOX #1 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">Development</h5>
+                        <p>36 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #1 */}
+                  {/* CATEGORIE BOX #2 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">Finance &amp; Accounting</h5>
+                        <p>28 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #2 */}
+                  {/* CATEGORIE BOX #3 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">IT &amp; Software</h5>
+                        <p>54 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #3 */}
+                  {/* CATEGORIE BOX #4 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">Office Productivity</h5>
+                        <p>68 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #4 */}
+                  {/* CATEGORIE BOX #5 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">Photography</h5>
+                        <p>159 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #5 */}
+                  {/* CATEGORIE BOX #6 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">Design &amp; Arts</h5>
+                        <p>78 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #6 */}
+                  {/* CATEGORIE BOX #7 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">Languages</h5>
+                        <p>103 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #7 */}
+                  {/* CATEGORIE BOX #8 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">Sciences &amp; Math</h5>
+                        <p>45 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #8 */}
+                  {/* CATEGORIE BOX #9 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">Writing &amp; Journalism</h5>
+                        <p>39 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #9 */}
+                  {/* CATEGORIE BOX #10 */}
+                  <div className="c1-box">
+                    <a href="category-details.html">
+                      <div className="c1-box-txt">
+                        <h5 className="h5-xs">Health and Fitness</h5>
+                        <p>62 Courses</p>
+                      </div>
+                    </a>
+                  </div> {/* END CATEGORIE BOX #10 */}
+                </div>
+              </div> {/* End row */}
+            </div> {/* End container */}
+          </section> {/* End CATEGORIES-1 */}
+          {/* PRICING-2
+    ============================================= */}
+          <section id="pricing-2" className="bg-03 wide-60 pricing-section division">
+            <div className="container">
+              <div className="row d-flex align-items-center">
+                {/* PRICING TEXT */}
+                <div className="col-lg-7">
+                  <div className="pricing-txt pc-25 white-color mb-40">
+                    {/* Title */}
+                    <h3 className="h3-lg">Go eTreeks Premium. Transform your life through online education.</h3>
+                    {/* List */}
+                    <ul className="txt-list mt-25">
+                      <li>Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum
+                        vitae
+                        purus efficitur ipsum primis and cubilia laoreet
+                      </li>
+                      <li>Integer congue magna 1,000 free courses pretium ligula at rutrum risus luctus dolor
+                        auctor
+                        ipsum blandit purus. Curabitur ac dapibus libero mauris donec ociis and neque.
+                        Blandit non
+                        molestie sapien tristique justo ut aliquam
+                      </li>
+                      <li>Feugiat 50% off ligula risus auctor egestas an augue mauri viverra tortor in iaculis
+                        placerat
+                        eugiat mauris ipsum in viverra tortor and gravida
+                      </li>
+                    </ul>
+                  </div>
+                </div> {/* END PRICING TEXT */}
+                {/* PRICE PLAN PREMIUM */}
+                <div className="col-lg-5">
+                  <div className="pricing-table">
+                    {/* Plan Price  */}
+                    <div className="pricing-plan text-center">
+                      <img className="img-75" src="images/crown.png" alt="price-icon" />
+                      <h5 className="h5-md">Premium Monthly</h5>
+                      <p className="grey-color">For just $11.99 per month, you get:</p>
+                    </div>
+                    {/* Pricing Plan Features */}
+                    <ul className="features">
+                      <li>Exclusive Monthly Discounts <span><i className="fas fa-check" /></span></li>
+                      <li>Your Discounts Never Expire <span><i className="fas fa-check" /></span></li>
+                      <li>Up To 50% Off Your Certification <span><i className="fas fa-check" /></span></li>
+                      <li>High Resolution Videos <span><i className="fas fa-check" /></span></li>
+                      <li>Offline Viewing <span><i className="fas fa-check" /></span></li>
+                      <li>Uninterrupted Ad-Free Learning <span><i className="fas fa-check" /></span></li>
+                      <li>24/7 Premium Support <span><i className="fas fa-check" /></span></li>
+                    </ul>
+                    {/* Pricing Table Button */}
+                    <div className="pricing-plan-btn text-center">
+                      <a href="#" className="btn btn-rose tra-black-hover">Go Premium</a>
+                    </div>
+                  </div>
+                </div> {/* END PRICE PLAN PREMIUM */}
+              </div> {/* End row */}
+            </div> {/* End container */}
+          </section> {/* END PRICING-2 */}
+          {/* NEWS-2
+    ============================================= */}
+          <section id="news-2" className="wide-60 news-section division">
+            <div className="container">
+              {/* SECTION TITLE */}
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="section-title title-centered mb-70">
+                    {/* Title 	*/}
+                    <h3 className="h3-sm">Our Analysis &amp; Education News</h3>
+                    {/* Text */}
+                    <p className="p-md">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero
+                      tempus, blandit posuere and ligula varius magna a porta
+                    </p>
+                    {/* Button 
+              <div class="title-btn">
+                <a href="blog-listing.html" class="btn btn-tra-grey rose-hover">Read More Stories</a>
+              </div> */}
+                  </div>
+                </div>
+              </div>
+              {/* NEWS GRID */}
+              <div className="row d-flex align-items-center">
+                {/* ARTICLE #1 */}
+                <div className="col-md-6 col-lg-3">
+                  <div id="a2-1" className="article-2 b-right">
+                    {/* Post Data */}
+                    <p className="p-sm">March 11, 2020</p>
+                    {/* Title */}
+                    <h5 className="h5-sm"><a href="single-post.html">Integer congue magna at pretium purus
+                        pretium</a></h5>
+                    {/* Text */}
+                    <p>An enim nullam tempor sapien gravida donec enim blandit ipsum porta justo integer odio
+                      velna
+                      vitae auctor integer
+                    </p>
+                    {/* Post Author */}
+                    <span>By Joel Peterson</span>
+                  </div>
+                </div> {/* END ARTICLE #1 */}
+                {/* ARTICLE #2 */}
+                <div className="col-md-6 col-lg-3">
+                  <div id="a2-2" className="article-2 b-right">
+                    {/* Post Data */}
+                    <p className="p-sm">March 04, 2020</p>
+                    {/* Title */}
+                    <h5 className="h5-sm"><a href="single-post.html">Congue magna eTreeks purus pretium magnis</a>
+                    </h5>
+                    {/* Text */}
+                    <p>Donec enim blandit and ipsum porta justo integer odio a velna vitae auctor an integer
+                      congue
+                      magna at pretium nulla
+                    </p>
+                    {/* Post Author */}
+                    <span>By Jennifer K.</span>
+                  </div>
+                </div> {/* END ARTICLE #2 */}
+                {/* ARTICLE #3 */}
+                <div className="col-md-6 col-lg-3">
+                  <div id="a2-3" className="article-2 b-right">
+                    {/* Post Data */}
+                    <p className="p-sm">February 24, 2020</p>
+                    {/* Title */}
+                    <h5 className="h5-sm"><a href="single-post.html">8 neque dolor primis a libero tempus
+                        blandit</a></h5>
+                    {/* Text */}
+                    <p>Porta justo integer odio velna vitae an auctor integer congue magna at pretium purus
+                      ligula
+                      rutrum luctus risus ultrice
+                    </p>
+                    {/* Post Author */}
+                    <span>By Michael Deal</span>
+                  </div>
+                </div> {/* END ARTICLE #3 */}
+                {/* ARTICLE #4 */}
+                <div className="col-md-6 col-lg-3">
+                  <div id="a2-4" className="article-2">
+                    {/* Post Data */}
+                    <p className="p-sm">February 19, 2020</p>
+                    {/* Title */}
+                    <h5 className="h5-sm"><a href="single-post.html">Ligula varius magna and porta a laoreet
+                        pretium</a></h5>
+                    {/* Text */}
+                    <p>Vitae auctor integer a congue magna undo pretium at purus pretium ligula a rutrum luctus
+                      risus
+                      and ultrice blandit
+                    </p>
+                    {/* Post Author */}
+                    <span>By Aaron Wall</span>
+                  </div>
+                </div> {/* END ARTICLE #4 */}
+              </div> {/* END NEWS GRID */}
+            </div> {/* End container */}
+          </section> {/* END NEWS-2 */}
+          {/* BANNER-5
+    ============================================= */}
+          <section id="banner-5" className="bg-whitesmoke wide-60 banner-section division">
+            <div className="container">
+              <div className="row">
+                {/* BANNER TEXT */}
+                <div className="col-md-6">
+                  <div className="banner-5-txt">
+                    {/* Icon */}
+                    <img src="images/image-04.png" alt="banner-icon" />
+                    {/* Text */}
+                    <div className="b5-txt">
+                      {/* Title */}
+                      <h4 className="h4-xs">Become a Teacher</h4>
+                      {/* Text */}
+                      <p>Feugiat primis ligula a risus auctor egestas an augue mauri and viverra tortor
+                        iaculis an
+                        eugiat viverra
+                      </p>
+                      {/* Button */}
+                      <a href="become-a-teacher.html" className="btn btn-rose tra-black-hover">Find Out More</a>
+                    </div>
+                  </div>
+                </div> {/* END BANNER TEXT */}
+                {/* BANNER TEXT */}
+                <div className="col-md-6">
+                  <div className="banner-5-txt">
+                    {/* Icon */}
+                    <img src="images/image-05.png" alt="banner-icon" />
+                    {/* Text */}
+                    <div className="b5-txt">
+                      {/* Title */}
+                      <h4 className="h4-xs">eTreeks for Business</h4>
+                      {/* Text */}
+                      <p>Feugiat primis ligula a risus auctor egestas an augue mauri and viverra tortor
+                        iaculis an
+                        eugiat viverra
+                      </p>
+                      {/* Button */}
+                      <a href="courses-list.html" className="btn btn-rose tra-black-hover">Find Out More</a>
+                    </div>
+                  </div>
+                </div> {/* END BANNER TEXT */}
+              </div> {/* End row */}
+            </div> {/* End container */}
+          </section> {/* END BANNER-5 */}
+          {/* FOOTER-3
+    ============================================= */}
+          <footer id="footer-3" className="footer division">
+            <div className="container">
+              {/* FOOTER CONTENT */}
+              <div className="row">
+                {/* FOOTER CONTACTS */}
+                <div className="col-md-5 col-lg-5 col-xl-3">
+                  <div className="footer-box mb-40">
+                    {/* Footer Logo */}
+                    {/* For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 344 x 80 pixels) */}
+                    <img src="images/logo.png" width={172} height={40} alt="footer-logo" />
+                    {/* Address */}
+                    <p className="mt-25">121 King Street, Melbourne,</p>
+                    <p>Victoria 3000 Australia</p>
+                    {/* Phone */}
+                    <p>Phone: +12 9 8765 4321</p>
+                    {/* Email */}
+                    <p className="foo-email">Email: <a href="mailto:yourdomain@mail.com">hello@domen.com</a></p>
+                  </div>
+                </div>
+                {/* FOOTER LINKS */}
+                <div className="col-md-3 col-lg-3 col-xl-3">
+                  <div className="footer-links mb-40">
+                    {/* Title */}
+                    <h5 className="h5-md">Quick Links</h5>
+                    {/* Footer Links */}
+                    <ul className="foo-links clearfix">
+                      <li><a href="about.html">About eTreeks</a></li>
+                      <li><a href="categories-list.html">Courses Catalog</a></li>
+                      <li><a href="reviews.html">Our Testimonials</a></li>
+                      <li><a href="pricing.html">Premium Learning</a></li>
+                      <li><a href="blog-listing.html">From the Blog</a></li>
+                    </ul>
+                  </div>
+                </div>
+                {/* FOOTER LINKS */}
+                <div className="col-md-4 col-lg-4 col-xl-3">
+                  <div className="footer-links mb-40">
+                    {/* Title */}
+                    <h5 className="h5-md">Popular Categories</h5>
+                    {/* Footer Links */}
+                    <ul className="clearfix">
+                      <li><a href="#">Business English</a></li>
+                      <li><a href="#">Software Development</a></li>
+                      <li><a href="#">Finance &amp; Accounting</a></li>
+                      <li><a href="#">Health and Fitness</a></li>
+                      <li><a href="#">Office Productivity</a></li>
+                    </ul>
+                  </div>
+                </div>
+                {/* FOOTER NEWSLETTER FORM */}
+                <div className="col-md-7 col-xl-3">
+                  <div className="footer-form mb-20">
+                    {/* Title */}
+                    <h5 className="h5-md">Stay in Touch</h5>
+                    {/* Newsletter Form Input */}
+                    <form className="newsletter-form">
+                      <div className="input-group">
+                        <input type="email" autoComplete="off" className="form-control" placeholder="Your Email Address" required id="s-email" />
+                        <span className="input-group-btn">
+                          <button type="submit" className="btn btn-rose tra-rose-hover">Subscribe</button>
+                        </span>
+                      </div>
+                      {/* Newsletter Form Notification */}
+                      <label htmlFor="s-email" className="form-notification" />
+                    </form>
+                  </div>
+                </div>
+              </div> {/* END FOOTER CONTENT */}
+              {/* BOTTOM FOOTER */}
+              <div className="bottom-footer">
+                <div className="row">
+                  {/* FOOTER COPYRIGHT */}
+                  <div className="col-lg-8">
+                    <p className="footer-copyright">© Copyright eTreeks 2020. All Rights Reserved</p>
+                  </div>
+                  {/* FOOTER SOCIALS LINKS */}
+                  <div className="col-lg-4 text-right">
+                    <ul className="foo-socials text-center clearfix">
+                      <li><a href="#" className="ico-facebook"><i className="fab fa-facebook-f" /></a></li>
+                      <li><a href="#" className="ico-twitter"><i className="fab fa-twitter" /></a></li>
+                      <li><a href="#" className="ico-google-plus"><i className="fab fa-google-plus-g" /></a></li>
+                      <li><a href="#" className="ico-tumblr"><i className="fab fa-tumblr" /></a></li>
+                      {/*
+                <li><a href="#" class="ico-behance"><i class="fab fa-behance"></i></a></li>	
+                <li><a href="#" class="ico-dribbble"><i class="fab fa-dribbble"></i></a></li>									
+                <li><a href="#" class="ico-instagram"><i class="fab fa-instagram"></i></a></li>	
+                <li><a href="#" class="ico-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" class="ico-pinterest"><i class="fab fa-pinterest-p"></i></a></li>								
+                <li><a href="#" class="ico-youtube"><i class="fab fa-youtube"></i></a></li>										
+                <li><a href="#" class="ico-vk"><i class="fab fa-vk"></i></a></li>
+                <li><a href="#" class="ico-yelp"><i class="fab fa-yelp"></i></a></li>
+                <li><a href="#" class="ico-yahoo"><i class="fab fa-yahoo"></i></a></li>
+                  */}
+                    </ul>
+                  </div>
+                </div>
+              </div> {/* END BOTTOM FOOTER */}
+            </div> {/* End container */}
+          </footer> {/* END FOOTER-3 */}
+        </div> {/* END PAGE CONTENT */}
+        {/* EXTERNAL SCRIPTS
+  ============================================= */}
+        {/* Custom Script */}
+        {/* HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. */}
+        {/* [if lt IE 9]>
+    
+    
+  <![endif] */}
+        {/* Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. */}
+        {/*
+  
+  
+  */}
+        {/* End Google Analytics */}
+      </div>
