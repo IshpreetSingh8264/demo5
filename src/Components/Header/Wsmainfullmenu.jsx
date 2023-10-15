@@ -13,13 +13,15 @@ import {
     latestpost2,
     latestpost3
 } from '../../imgsource';
+import { Link } from 'react-router-dom';
+import Routes from '../../Routes';
 
 const Wsmainfullmenu = () => {
     return (
         <div>
             <div className="wsmainfull menu clearfix">
                 <div className="wsmainwp clearfix">
-                    <div className="desktoplogo"><a href="#hero-5" className="logo-black"><img src={logopng} width={172} height={40} alt="header-logo" /></a></div>
+                    <div className="desktoplogo"><Link to="/" className="logo-black"><img src={logopng} width={172} height={40} alt="header-logo" /></Link></div>
                     <div className="desktoplogo"><a href="#hero-5" className="logo-white"><img src="images/logo-white.png" width={172} height={40} alt="header-logo" /></a></div>
                     <nav className="wsmenu clearfix">
                         <ul className="wsmenu-list">
@@ -35,7 +37,7 @@ const Wsmainfullmenu = () => {
                                                 <li><a href="courses-list.html">Courses Listing</a></li>
                                                 <li><a href="course-details.html">Course Details</a></li>
                                                 <li><a href="teachers-list.html">Teachers Listing</a></li>
-                                                <li><a href="teacher-profile.html">Teacher Profile</a></li>
+                                                <li><Link to="teacher-profile">Teacher Profile</Link></li>
                                             </ul>
                                             <ul className="col-lg-6 col-md-12 col-xs-12 link-list">
                                                 <li><a href="become-a-teacher.html">Become A Teacher</a></li>
