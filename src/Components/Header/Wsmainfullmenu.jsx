@@ -37,12 +37,12 @@ const Wsmainfullmenu = () => {
                                                 <li><a href="courses-list.html">Courses Listing</a></li>
                                                 <li><a href="course-details.html">Course Details</a></li>
                                                 <li><a href="teachers-list.html">Teachers Listing</a></li>
-                                                <li><Link to="teacher-profile">Teacher Profile</Link></li>
+                                                <li><Link to="/demo5/teacher-profile">Teacher Profile</Link></li>
                                             </ul>
                                             <ul className="col-lg-6 col-md-12 col-xs-12 link-list">
                                                 <li><a href="become-a-teacher.html">Become A Teacher</a></li>
                                                 <li><a href="pricing.html">Pricing Plans Page</a></li>
-                                                <li><a href="reviews.html">Reviews Page</a></li>
+                                                <li><Link to="/demo5/reviews">Reviews</Link></li>
                                                 <li><a href="faqs.html">FAQs Page</a></li>
                                                 <li><a href="blog-listing.html">Blog Listing</a></li>
                                                 <li><a href="single-post.html">Single Post</a></li>
