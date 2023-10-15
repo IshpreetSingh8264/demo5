@@ -6,7 +6,7 @@ import Footer from './Footer'
 const Demo5 = () => {
     return (
         <div>
-            <div id="loader-wrapper">
+            {/* <div id="loader-wrapper">
                 <div id="loading">
                     <div id="loading-center">
                         <div className="cssload-loading">
@@ -17,7 +17,7 @@ const Demo5 = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <Header />
             <Main />
             <Footer />
